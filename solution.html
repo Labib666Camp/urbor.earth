@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Solution - Urbor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="nav-left">
+                <a href="index.html" class="nav-logo">
+                    <img src="logo.png" alt="Urbor Logo">
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="solution.html" class="active">Our Solution</a></li>
+                    <li><a href="technology.html">Technology</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <a href="#contact" class="cta-button nav-cta">Contact</a>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="solution-overview" class="page-header-bg">
+            <div class="background-image-container">
+                 <img src="solutions-overview-bg.png" alt="A lush, green landscape in Bangladesh showing revitalized land.">
+                 <div class="overlay"></div>
+            </div>
+            <div class="container header-content">
+                <h1 class="section-title">Reclaiming Land, Restoring Hope.</h1>
+                <!-- <p class="section-subtitle">Our comprehensive solution tackles soil salinity through a synergistic three-phase approach: natural remediation, intelligent prediction, and sustainable cultivation.</p> -->
+            </div>
+        </section>
+
+        <section id="phase-1" class="content-section">
+            <div class="container">
+                <div class="text-image-layout">
+                    <div class="text-content">
+                        <span class="step-badge">Phase 01</span>
+                        <h2 class="subsection-title">Green Soil Remediation</h2>
+                        <p>We initiate land recovery with an eco-friendly phytoremediation process. We cultivate native, hyperaccumulator plants like "Hatishur" and "Kalai Grass" directly on the salt-affected soil. These plants act as natural pumps, drawing excess salt from the earth.</p>
+                        <p>After a four-week cycle, the cleansed topsoil is mixed with organic manure and dried green moss, creating a nutrient-rich foundation for crops. </p>
+                    </div>
+                    <div class="image-content">
+                        <video autoplay loop muted playsinline class="solution-video">
+                            <source src="section_1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="phase-2" class="content-section" style="background-color: var(--light-accent);">
+            <div class="container">
+                <div class="text-image-layout reverse">
+                    <div class="text-content">
+                        <span class="step-badge">Phase 02</span>
+                        <h2 class="subsection-title">Predictive Spatial Intelligence</h2>
+                        <p>To ensure long-term resilience, we integrate cutting-edge technology. Our proprietary spatial intelligence platform uses satellite imagery and data analytics to forecast geographical salt intrusion patterns on a day-by-day timescale.</p>
+                        <p>This predictive capability allows for proactive land management, optimizing remediation efforts and protecting crops before the risk becomes critical. It transforms farming from a reactive to a proactive endeavor.</p>
+                        <a href="technology.html" class="cta-button small">Explore The Technology</a>
+                    </div>
+                     <div class="image-content">
+                        <video autoplay loop muted playsinline class="solution-video">
+                            <source src="section_2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="phase-3" class="content-section">
+            <div class="container">
+                <div class="text-image-layout">
+                    <div class="text-content">
+                        <span class="step-badge">Phase 03</span>
+                        <h2 class="subsection-title">Sustainable Vertical Farming</h2>
+                        <p>On the reclaimed land, we introduce innovative vertical farming systems built from sustainable, locally-sourced bamboo.  These structures maximize land efficiency, significantly reduce water consumption, and enable diverse crop cultivation.</p>
+                        <p>This final phase ensures food security and creates resilient agricultural futures, empowering farmers to grow more with less.</p>
+                    </div>
+                    <div class="image-content">
+                         <video autoplay loop muted playsinline class="solution-video">
+                            <source src="site_bg.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <section id="contact" class="content-section">
+            <div class="container text-center">
+                 <h2 class="section-title">Ready to Grow With Us?</h2>
+                 <p class="section-subtitle">Our work is always growing. Contact us to learn more about partnerships, investment opportunities, or how you can get involved.</p>
+                 <a href="mailto:contact@urbor.com" class="cta-button">Partner With Us</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-socials">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="footer-copyright">&copy; <span id="current-year"></span> Urbor. All rights reserved. Innovating for a sustainable tomorrow.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

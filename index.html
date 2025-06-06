@@ -12,287 +12,191 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class="nav-placeholder"></div> <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#problem">The Challenge</a></li>
-                <li><a href="#solution-intro">Our Solution</a></li>
-                <li><a href="#impact">Impact</a></li>
-                <li><a href="#team">Our Team</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
+        <nav class="container">
+            <div class="nav-left">
+                <a href="index.html" class="nav-logo">
+                    <img src="logo.png" alt="Urbor Logo">
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="solution.html">Our Solution</a></li>
+                    <li><a href="technology.html">Technology</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <a href="#contact" class="cta-button nav-cta">Contact</a>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
         </nav>
     </header>
 
     <main>
         <section id="hero">
-            <video autoplay muted loop playsinline id="hero-video">
-                <source src="site_bg.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <div class="hero-overlay-gradual"></div>
-            <div class="hero-container">
-                <div class="hero-content-left">
-                    <h1 class="hero-title">Revitalizing Earth, Empowering Lives.</h1>
-                    <p class="hero-subtitle"><span class="highlight-urbor">Urbor</span> pioneers intelligent, sustainable solutions to combat soil salinity, transforming barren lands into thriving farms and securing futures for communities in Bangladesh.</p>
-                    <a href="#solution-intro" class="cta-button">Explore Our Innovations</a>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">From Saline Land to Bountiful Harvests.</h1>
+                    <p class="hero-subtitle">Urbor pioneers intelligent, sustainable solutions to combat soil salinity, transforming barren lands into thriving farms and securing futures for communities in Bangladesh.</p>
+                    <a href="solution.html" class="cta-button">Explore Our Solution</a>
                 </div>
-                <div class="hero-logo-right">
-                    <img src="logo.png" alt="Urbor Logo" id="hero-main-logo">
-                </div>
-            </div>
-        </section>
-
-        <section id="supported-by" class="content-section">
-            <h3 class="supported-by-title">Supported By</h3>
-            <div class="logo-slider">
-                <div class="logo-slide-track">
-                    <div class="slide"><img src="wageningen.png" alt="Partner 4"></div>
-                    <div class="slide"><img src="jaago.png" alt="Partner 3"></div>
-                    <div class="slide"><img src="genu.png" alt="Partner 1"></div>
-                    <div class="slide"><img src="unicef.png" alt="Partner 2"></div>
-                    <div class="slide"><img src="startup_bd.png" alt="Partner 5"></div>
-                    <div class="slide"><img src="ict.png" alt="Partner 6"></div>
-                    <!-- <div class="slide"><img src="https://via.placeholder.com/150x70/FFFFFF/0B2A1A?text=Partner+1" alt="Partner 1"></div>
-                    <div class="slide"><img src="https://via.placeholder.com/150x70/FFFFFF/0B2A1A?text=Partner+2" alt="Partner 2"></div>
-                    <div class="slide"><img src="https://via.placeholder.com/150x70/FFFFFF/0B2A1A?text=Partner+3" alt="Partner 3"></div>
-                    <div class="slide"><img src="https://via.placeholder.com/150x70/FFFFFF/0B2A1A?text=Partner+4" alt="Partner 4"></div>
-                    <div class="slide"><img src="https://via.placeholder.com/150x70/FFFFFF/0B2A1A?text=Partner+5" alt="Partner 5"></div>
-                    <div class="slide"><img src="https://via.placeholder.com/150x70/FFFFFF/0B2A1A?text=Partner+6" alt="Partner 6"></div> -->
-                </div>
-            </div>
-        </section>
-
-        <section id="problem" class="content-section">
-            <div class="section-title-container">
-                <h2 class="section-title">The Escalating Threat of Soil Salinity</h2>
-                <p class="section-subtitle">A critical challenge degrading agricultural lands and impacting livelihoods across coastal Bangladesh.</p>
-            </div>
-            <div class="problem-grid-container">
-                <div class="problem-item">
-                    <div class="problem-item-icon"><i class="fas fa-chart-area"></i></div>
-                    <h3 class="problem-item-title">40% Arable Land Vulnerable</h3>
-                    <p class="problem-item-text">A significant portion of Bangladesh's fertile land is under threat from rising salinity.</p>
-                </div>
-                <div class="problem-item">
-                    <div class="problem-item-icon"><i class="fas fa-water"></i></div>
-                    <h3 class="problem-item-title">1.06M Hectares Contaminated</h3>
-                    <p class="problem-item-text">Over a million hectares in coastal areas already suffer from salt contamination, reducing yield.</p>
-                </div>
-                <div class="problem-item">
-                    <div class="problem-item-icon"><i class="fas fa-users-slash"></i></div>
-                    <h3 class="problem-item-title">60%+ Farmer Migration</h3>
-                    <p class="problem-item-text">Climate change and land degradation are forcing a majority of climate migrants, who are farmers, to relocate.</p>
-                </div>
-                <div class="problem-item">
-                    <div class="problem-item-icon"><i class="fas fa-female"></i></div>
-                    <h3 class="problem-item-title">100k+ Women Affected Annually</h3>
-                    <p class="problem-item-text">Women in these regions are disproportionately affected, facing increased financial and social insecurity.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="solution-intro" class="content-section text-center section-with-bg-image" style="background-image: url('team_2.jpg');">
-            <div class="image-overlay"></div>
-            <div class="section-content-overlayed">
-                <h2 class="section-title">Our Multi-Pronged Solution</h2>
-                <p class="section-subtitle">Urbor integrates nature-based methods with cutting-edge technology for comprehensive land restoration and sustainable agriculture.</p>
-            </div>
-        </section>
-
-        <section id="soil-remediation" class="solution-row-section">
-            <div class="solution-content">
-                <div class="solution-media-container">
-                    <video autoplay muted loop playsinline class="solution-video">
-                        <source src="section_1.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <div class="media-overlay"></div>
-                </div>
-                <div class="solution-text">
-                    <span class="solution-step-number">Stage 01</span>
-                    <h3>Green Soil Remediation</h3>
-                    <p>We employ native hyperaccumulator plants, "Hatishur" and "Kalai Grass," to naturally draw out and remove excess salt from affected soil. This eco-friendly phytoremediation process typically spans four weeks, after which the treated topsoil is enhanced with organic manure and dried green moss to create a fertile foundation for crops.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="spatial-intelligence" class="solution-row-section alt-layout">
-            <div class="solution-content">
-                <div class="solution-media-container">
-                    <video autoplay muted loop playsinline class="solution-video">
-                        <source src="section_2.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <div class="media-overlay"></div>
-                </div>
-                <div class="solution-text">
-                    <span class="solution-step-number">Stage 02</span>
-                    <h3>Predictive Spatial Intelligence</h3>
-                    <p>Our advanced spatial intelligence platform utilizes satellite imagery and environmental data to forecast geographical salt intrusion patterns on a day-by-day timescale. This predictive capability allows for proactive land management strategies, optimizing remediation efforts and resource allocation to mitigate salinity risks effectively.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="vertical-farming" class="solution-row-section">
-            <div class="solution-content">
-                 <div class="solution-media-container">
-                    <video autoplay muted loop playsinline class="solution-video">
+                <div class="hero-video-container">
+                    <video autoplay muted loop playsinline class="hero-video">
                         <source src="site_bg.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <div class="media-overlay"></div>
-                </div>
-                <div class="solution-text">
-                    <span class="solution-step-number">Stage 03</span>
-                    <h3>Sustainable Vertical Farming</h3>
-                    <p>The remediated soil, guided by insights from our predictive platform, is then used in innovative vertical farming systems. These structures, built from sustainable and locally-sourced bamboo, maximize land efficiency, significantly reduce water consumption, and enable diverse crop cultivation in areas with limited space, promoting a resilient agricultural future.</p>
                 </div>
             </div>
         </section>
 
-        <section id="impact" class="content-section"> <div class="section-content-overlayed"> <div class="section-title-container">
-                    <h2 class="section-title">Measurable Impact & Growth</h2>
-                    <p class="section-subtitle">Our integrated solutions deliver tangible benefits for the environment and communities.</p>
+        <section id="supported-by">
+            <div class="container">
+                <h3 class="supported-by-title">Supported By</h3>
+                <div class="logo-slider">
+                    <div class="logo-slide-track">
+                        <div class="slide"><img src="wageningen.png" alt="Wageningen University & Research"></div>
+                        <div class="slide"><img src="jaago.png" alt="JAAGO Foundation"></div>
+                        <div class="slide"><img src="genu.png" alt="Generation Unlimited"></div>
+                        <div class="slide"><img src="unicef.png" alt="UNICEF"></div>
+                        <div class="slide"><img src="startup_bd.png" alt="Startup Bangladesh"></div>
+                        <div class="slide"><img src="ict.png" alt="ICT Division"></div>
+                        <div class="slide"><img src="wageningen.png" alt="Wageningen University & Research"></div>
+                        <div class="slide"><img src="jaago.png" alt="JAAGO Foundation"></div>
+                        <div class="slide"><img src="genu.png" alt="Generation Unlimited"></div>
+                        <div class="slide"><img src="unicef.png" alt="UNICEF"></div>
+                        <div class="slide"><img src="startup_bd.png" alt="Startup Bangladesh"></div>
+                        <div class="slide"><img src="ict.png" alt="ICT Division"></div>
+                    </div>
                 </div>
+            </div>
+        </section>
+
+        <section id="challenge" class="content-section">
+            <div class="container">
+                <h2 class="section-title">Salt Intrusion Beneath Our Feet</h2>
+                <p class="section-subtitle">Soil salinity is a silent threat degrading agricultural lands, displacing communities, and impacting the livelihoods of millions across coastal Bangladesh.</p>
+                <div class="challenge-grid">
+                    <div class="challenge-card">
+                        <div class="challenge-icon"><i class="fas fa-water"></i></div>
+                        <h3 class="challenge-stat">40%</h3>
+                        <p class="challenge-text">Of all arable land in Bangladesh is vulnerable to rising salinity. </p>
+                    </div>
+                    <div class="challenge-card">
+                        <div class="challenge-icon"><i class="fas fa-map-marked-alt"></i></div>
+                        <h3 class="challenge-stat">1.06M ha</h3>
+                        <p class="challenge-text">Of coastal arable land is already contaminated by salt. </p>
+                    </div>
+                    <div class="challenge-card">
+                        <div class="challenge-icon"><i class="fas fa-walking"></i></div>
+                        <h3 class="challenge-stat">60%</h3>
+                        <p class="challenge-text">Of climate migrants moving to cities are farmers forced to abandon their land. </p>
+                    </div>
+                    <div class="challenge-card">
+                        <div class="challenge-icon"><i class="fas fa-female"></i></div>
+                        <h3 class="challenge-stat">100,000+</h3>
+                        <p class="challenge-text">Women are left behind annually, facing severe financial insecurity. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="approach-overview" class="content-section">
+            <div class="container">
+                <h2 class="section-title">Our Integrated Approach</h2>
+                <p class="section-subtitle">We combine nature-based methods with predictive technology to deliver a holistic, effective, and easily adaptable solution.</p>
+                <div class="approach-grid">
+                    <div class="approach-card">
+                        <div class="approach-card-image">
+                            <img src="plant-hatishur.png" alt="A close-up of the Hatishur plant used for remediation.">
+                        </div>
+                        <div class="approach-card-content">
+                            <h3 class="approach-title">Green Remediation</h3>
+                            <p>We use native plants to naturally draw salt from the soil, restoring its health from the ground up. </p>
+                            <a href="solution.html#phase-1" class="learn-more-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="approach-card">
+                        <div class="approach-card-image">
+                            <img src="ui-mobile.png" alt="The Urbor mobile app interface showing predictive data.">
+                        </div>
+                        <div class="approach-card-content">
+                            <h3 class="approach-title">Predictive Intelligence</h3>
+                            <p>Our platform uses satellite data to forecast salinity, empowering farmers with proactive insights.</p>
+                            <a href="technology.html" class="learn-more-link">See the Tech <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="approach-card">
+                        <div class="approach-card-image">
+                            <img src="vertical.jpeg" alt="A sustainable vertical farm structure.">
+                        </div>
+                        <div class="approach-card-content">
+                            <h3 class="approach-title">Vertical Farming</h3>
+                            <p>We enable year-round cultivation on reclaimed land using sustainable, space-efficient vertical farms. </p>
+                            <a href="solution.html#phase-3" class="learn-more-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="impact" class="content-section">
+            <div class="container">
+                 <h2 class="section-title">Tangible, Measurable Impact</h2>
+                <p class="section-subtitle">Our work delivers transformative results for farmers, their communities, and the environment.</p>
                 <div class="impact-grid">
                     <div class="impact-item">
-                        <div class="impact-icon"><i class="fas fa-seedling"></i></div>
                         <h4>82%+</h4>
-                        <p>Salt Removed from Soil</p>
+                        <p>Salt Removed from Soil </p>
                     </div>
                     <div class="impact-item">
-                        <div class="impact-icon"><i class="fas fa-dollar-sign"></i></div>
                         <h4>40%+</h4>
-                        <p>Reduction in Production Costs</p>
+                        <p>Reduction in Production Costs </p>
                     </div>
                     <div class="impact-item">
-                        <div class="impact-icon"><i class="fas fa-tint"></i></div>
                         <h4>70%+</h4>
-                        <p>Reduction in Water Usage</p>
+                        <p>Reduction in Water Usage </p>
                     </div>
                     <div class="impact-item">
-                        <div class="impact-icon"><i class="fas fa-chart-line"></i></div>
                         <h4>25%+</h4>
-                        <p>Increase in Crop Yield</p>
+                        <p>Increase in Crop Yield </p>
                     </div>
                 </div>
                 <div class="sdg-impact">
-                    <p>Advancing UN Sustainable Development Goals:</p>
+                    <p class="sdg-title">Advancing UN Sustainable Development Goals</p>
                     <div class="sdg-icons-container">
                         <span><i class="fas fa-hand-holding-heart"></i> SDG 1: No Poverty</span>
                         <span><i class="fas fa-briefcase"></i> SDG 8: Decent Work</span>
                         <span><i class="fas fa-users-cog"></i> SDG 10: Reduced Inequalities</span>
-                        <span><i class="fas fa-leaf"></i> SDG 15: Life on Land</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="team" class="content-section">
-            <div class="team-banner-container">
-                <div class="team-banner-image" style="background-image: url('team_photo.jpg');">
-                    <div class="image-overlay strong-overlay"></div>
-                </div>
-                <div class="section-title-container team-title-on-banner">
-                    <h2 class="section-title">Our Team</h2>
-                    <p class="section-subtitle">The dedicated individuals driving Urbor's mission forward with expertise and passion.</p>
-                </div>
-            </div>
-            <div class="team-grid-container">
-                <div class="team-grid">
-                    <div class="team-member-card">
-                        <div class="team-member-image-container">
-                            <img src="jawad.png" alt="Jaowad - Operations">
-                            <div class="image-overlay-uniform"></div>
-                        </div>
-                        <h3>Jaowad</h3>
-                        <p>Operations</p>
-                        <div class="team-member-socials">
-                            <a href="mailto:jaowad@urbor.com" aria-label="Email Jaowad"><i class="fas fa-envelope"></i></a>
-                            <a href="https://linkedin.com/in/jaowad" target="_blank" aria-label="Jaowad's LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="team-member-card">
-                        <div class="team-member-image-container">
-                            <img src="labib.png" alt="Labib - R&D">
-                            <div class="image-overlay-uniform"></div>
-                        </div>
-                        <h3>Labib</h3>
-                        <p>Research & Development</p>
-                        <div class="team-member-socials">
-                            <a href="mailto:labib@urbor.com" aria-label="Email Labib"><i class="fas fa-envelope"></i></a>
-                            <a href="https://linkedin.com/in/labib" target="_blank" aria-label="Labib's LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="team-member-card">
-                        <div class="team-member-image-container">
-                            <img src="sadia.png" alt="Sadia - Communication">
-                            <div class="image-overlay-uniform"></div>
-                        </div>
-                        <h3>Sadia</h3>
-                        <p>Communication & Outreach</p>
-                        <div class="team-member-socials">
-                            <a href="mailto:sadia@urbor.com" aria-label="Email Sadia"><i class="fas fa-envelope"></i></a>
-                            <a href="https://linkedin.com/in/sadia" target="_blank" aria-label="Sadia's LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="team-member-card">
-                         <div class="team-member-image-container">
-                            <img src="ritu.png" alt="Ritu - Implementation">
-                            <div class="image-overlay-uniform"></div>
-                        </div>
-                        <h3>Ritu</h3>
-                        <p>Implementation</p>
-                         <div class="team-member-socials">
-                            <a href="mailto:ritu@urbor.com" aria-label="Email Ritu"><i class="fas fa-envelope"></i></a>
-                            <a href="https://linkedin.com/in/ritu" target="_blank" aria-label="Ritu's LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="team-member-card">
-                        <div class="team-member-image-container">
-                            <img src="shahriar.png" alt="Shahriar - Product & Design">
-                            <div class="image-overlay-uniform"></div>
-                        </div>
-                        <h3>Shahriar</h3>
-                        <p>Product & Design</p>
-                        <div class="team-member-socials">
-                            <a href="mailto:shahriar@urbor.com" aria-label="Email Shahriar"><i class="fas fa-envelope"></i></a>
-                            <a href="https://linkedin.com/in/shahriar" target="_blank" aria-label="Shahriar's LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
+                        <span><i class="fas fa-seedling"></i> SDG 15: Life on Land</span>
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="contact" class="content-section">
-            <div class="section-title-container">
-                <h2 class="section-title">Connect With Urbor</h2>
-                <p class="section-subtitle">Let's collaborate to cultivate a sustainable future. Reach out to us for partnerships, inquiries, or to learn more.</p>
+            <div class="container">
+                <div class="contact-container">
+                    <div class="contact-text">
+                        <h2 class="section-title" style="text-align: left;">Join Our Mission</h2>
+                        <p class="section-subtitle" style="text-align: left; margin-left: 0;">Let's collaborate to cultivate a resilient and prosperous future for Bangladesh. We believe in the power of community and partnership to drive meaningful change. Reach out to learn more about our work, explore investment opportunities, or join us in the field.</p>
+                        <a href="mailto:contact.urbor.ag@gmail.com" class="cta-button">Get In Touch</a>
+                    </div>
+                    <div class="contact-image">
+                        <img src="team_photo.jpg" alt="The Urbor team with community members.">
+                    </div>
+                </div>
             </div>
-            <form id="contact-form">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit" class="cta-button">Send Message</button>
-            </form>
         </section>
     </main>
 
     <footer>
         <div class="footer-content">
-            <div class="footer-logo-container">
-                <img src="logo.png" alt="Urbor Footer Logo" class="footer-logo-image">
-            </div>
-            <p class="footer-tagline">Intelligent Solutions for a Resilient Planet.</p>
             <div class="footer-socials">
-                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="contact.urbor.ag@gmail.com" aria-label="Mail"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.facebook.com/urbor.ag" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <!-- <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
+                <a href="https://www.linkedin.com/company/urbor-ag/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <!-- <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a> -->
             </div>
             <p class="footer-copyright">&copy; <span id="current-year"></span> Urbor. All rights reserved. Innovating for a sustainable tomorrow.</p>
         </div>

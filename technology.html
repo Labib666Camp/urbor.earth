@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Technology - Urbor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="nav-left">
+                <a href="index.html" class="nav-logo">
+                    <img src="logo.png" alt="Urbor Logo">
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="solution.html">Our Solution</a></li>
+                    <li><a href="technology.html" class="active">Technology</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <a href="#contact" class="cta-button nav-cta">Contact</a>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- <section class="page-header-bg">
+             <div class="background-image-container">
+                 <img src="ui-dashboard.png" alt="Urbor Intelligence Platform Dashboard">
+                 <div class="overlay"></div>
+            </div>
+            <div class="container header-content">
+                <h1 class="section-title">Predictive Intelligence for Proactive Farming</h1>
+                <p class="section-subtitle">We leverage the power of satellite data and spatial intelligence to see risks before they arise, empowering farmers to protect their land and secure their harvests.</p>
+            </div>
+        </section> -->
+
+        <section id="platform" class="content-section">
+            <div class="container">
+                <h2 class="section-title">The Urbor Intelligence Platform</h2>
+                <!-- <p class="section-subtitle">Our platform translates complex environmental data into simple, actionable insights for farmers.</p> -->
+
+                <div class="feature-layout">
+                    <div class="feature-image">
+                        <img src="ui-dashboard.png" alt="The Urbor Intelligence dashboard showing a salinity heatmap.">
+                    </div>
+                    <div class="feature-text">
+                        <h3>Monitor with Precision</h3>
+                        <p>We use geo-referencing and satellite imagery to create detailed salinity heatmaps of coastal regions. This allows us to monitor changing soil conditions with incredible accuracy, identifying vulnerable areas before they become critical problems.</p>
+                    </div>
+                </div>
+
+                <div class="feature-layout reverse">
+                    <div class="feature-image">
+                        <img src="ui-graph.png" alt="A graph showing a predictive salinity forecast.">
+                    </div>
+                    <div class="feature-text">
+                        <h3>Forecast Future Risk</h3>
+                        <p>Our key innovation lies in prediction. By analyzing historical data and environmental trends, our platform forecasts geographical salt intrusion patterns on a day-by-day timescale. This predictive capability allows for proactive land management, optimizing remediation efforts and protecting crops.</p>
+                    </div>
+                </div>
+
+                <div class="feature-layout">
+                    <div class="feature-image">
+                        <img src="ui-mobile.png" alt="The Urbor mobile app being used in a field.">
+                    </div>
+                    <div class="feature-text">
+                        <h3>Accessible Insights, Anywhere</h3>
+                        <p>Advanced technology is only useful if it's accessible. We deliver these critical insights through a simple and intuitive mobile application. Farmers can receive alerts, view salinity maps, and access crop health information directly from their phones, right in the field.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <div class="container text-center">
+                 <h2 class="section-title">Let's Build a Resilient Future</h2>
+                 <p class="section-subtitle">Our work is always growing. Contact us to learn more about partnerships, investment opportunities, or how you can get involved.</p>
+                 <a href="mailto:contact@urbor.com" class="cta-button">Partner With Us</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-socials">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="footer-copyright">&copy; <span id="current-year"></span> Urbor. All rights reserved. Innovating for a sustainable tomorrow.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
